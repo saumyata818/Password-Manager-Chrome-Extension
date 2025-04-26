@@ -39,8 +39,10 @@ body {
 }
 
 input[type=range] {
+    appearance: none;
     -webkit-appearance: none;
 }
+
 
 input[type=range]::-webkit-slider-runnable-track {
     width: 50%;
